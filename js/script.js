@@ -1,6 +1,7 @@
 
 let sImg = document.querySelector('#img')
 
+console.log(sImg.src)
 
 sImg.addEventListener('click', () => {
 
