@@ -6,9 +6,9 @@ console.log(sImg.src.value);
 sImg.addEventListener('click', () => {
 
    if (sImg.src == "https://diakivm.github.io/cat/img/sCat.jpg") {
-      sImg.src = "https://diakivm.github.io/cat/img/fCat.jpg"
+      sImg.src = "img/fCat.jpg"
    } else {
-      sImg.src = "https://diakivm.github.io/cat/img/sCat.jpg"
+      sImg.src = "img/sCat.jpg"
    }
 
 })
