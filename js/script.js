@@ -1,14 +1,14 @@
 
-let sImg = document.querySelector('#img')
+let fImg = document.querySelector('#img1')
+let sImg = document.querySelector('#img2')
+let container = document.querySelector('.container')
 
-console.log(sImg.src.value);
-
-sImg.addEventListener('click', () => {
-
-   if (sImg.src == "https://diakivm.github.io/cat/img/sCat.jpg") {
-      sImg.src = "img/fCat.jpg"
+container.addEventListener('click', () => {
+   if (fImg.style.display == "none") {
+      fImg.style.display = "block"
+      sImg.style.display = "none"
    } else {
-      sImg.src = "img/sCat.jpg"
+      fImg.style.display = "none"
+      sImg.style.display = "block"
    }
-
 })
